@@ -1,0 +1,48 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+    margin: 0;
+    min-height: 100vh;
+}
+
+h1{
+    font-weight: bold;
+    overflow: hidden;
+}
+
+.layout{
+    min-height: 100vh;
+    align-items: center;
+    width: 100%;
+    background-image: url('../images/background.jpg');
+    background-size: cover;
+}
+
+.ant-tooltip-inner{
+    background-color: #ffcccc!important;
+    color: black;
+}
+
+ul{
+    overflow: auto;
+    scrollbar-color: tr;
+    padding: 1em;
+}
+
+li{
+    overflow: hidden;
+    padding: 1em;
+    margin: auto ;
+}
+
+@media (max-width: 1100px){
+    .ant-image.css-dev-only-do-not-override-6j9yrn{
+        display: none;
+    }
+
+    .giftExplanation{
+        width: auto !important;;
+    }
+}
